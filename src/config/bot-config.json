@@ -1,0 +1,12 @@
+{
+  "name": "z-dev",
+  "status": "Bot status",
+  "statusType": "Bot status type, either 'PLAYING', 'LISTENING' or 'WATCHING'",
+  "token": "",
+  "intents": [
+    "GUILDS",
+    "GUILD_MESSAGES"
+  ]
+}
+
+client.login(process.env.TOKEN)
